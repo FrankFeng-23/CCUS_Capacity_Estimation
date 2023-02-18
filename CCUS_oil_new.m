@@ -1,6 +1,6 @@
 %运行该程序之前需要运行make_world_oil_status
 level = 2;%最佳估计
-file_base_url = "C:\Users\frankfeng1223\Desktop\Graduation_Design_Data\DataFile\result\";
+file_base_url = ".\result_data\";
 
 %% 计算EOR
 EXTRA = [0.05,0.12,0.2];

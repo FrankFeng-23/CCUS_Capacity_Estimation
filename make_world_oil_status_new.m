@@ -1,6 +1,6 @@
 %%% 运行该程序前需要运行make_USoil_yearbooks
 %% 获取石油数据
-url = "C:\Users\frankfeng1223\Desktop\Graduation_Design_Data\DataFile\tps_sumg.xls";
+url = ".\origin_data\tps_sumg.xls";
 opts = detectImportOptions(url);
 opts.SelectedVariableNames = [1,10:12,20];
 ROW_Oil_data = readmatrix(url,opts);

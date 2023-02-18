@@ -2,7 +2,7 @@ clc;
 clear;
 
 %% 获取所有的X坐标
-base_url = "C:\Users\frankfeng1223\Desktop\Graduation_Design_Data\DataFile\US_";
+base_url = ".\origin_data\US_";
 X_all = [];%存放single_X
 for i=2000:2020
     url = strcat(base_url,num2str(i),".xls");
