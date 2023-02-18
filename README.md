@@ -3,4 +3,4 @@
 
 作者：FrankFeng
 
-代码包含了计算油气藏与深部咸水层的CCUS潜力matlab代码
+代码包含了计算油气藏的CCUS潜力matlab代码
